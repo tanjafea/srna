@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luna &mdash; Foster Dog</title>
+<meta name="description" content="Luna is looking for a forever home.">
+<meta name="theme-color" content="#F6F3EA">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400;1,500&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a href="#top" class="logo">Luna.</a>
+    <nav class="links">
+      <a href="#story" data-i18n="nav_story">Story</a>
+      <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="#details" data-i18n="nav_details">Details</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-current="true">EN</button>
+      <button type="button" data-lang="sr">SR</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="badge" data-i18n="status_badge">in foster care</span>
+        <h1 class="hero-title" data-i18n="hero_title">meet Luna.</h1>
+        <p class="hero-subtitle" data-i18n="hero_subtitle">A calm, gentle girl fostered in Belgrade. Looking for her people.</p>
+        <p class="hero-facts" data-i18n="hero_facts">~2 years &middot; female &middot; medium size &middot; Belgrade</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" data-i18n="cta_primary">&#10022; Meet Luna</a>
+          <a href="#story" class="btn btn-secondary" data-i18n="cta_secondary">Read her story</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="photos/hero.svg" alt="Luna portrait">
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <div class="quote-block">
+    <p data-i18n="quote_text">&ldquo;She waited by the shelter fence every evening, like someone might still be coming back for her. Nobody did &mdash; so we did.&rdquo;</p>
+    <cite data-i18n="quote_attribution">&mdash; foster's note</cite>
+  </div>
+
+  <!-- STORY -->
+  <section id="story" class="story">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="story_eyebrow">Foster story</p>
+      <h2 class="section-title" data-i18n="story_heading">A quiet dog who just wants a routine.</h2>
+      <p data-i18n="story_p1">Luna spent her first year on a chain outside a village house before she was surrendered to a local shelter. She's cautious with new people at first, but she warms up fast once she trusts you &mdash; and once she does, she doesn't leave your side.</p>
+      <p data-i18n="story_p2">In foster care she's learned what a sofa is, what a leash walk feels like, and that the doorbell isn't a threat. She's food-motivated, easy to train, and thrives on a predictable daily rhythm.</p>
+      <p data-i18n="story_p3">She isn't asking for much. Just a door that stays open.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="gallery_eyebrow">Gallery</p>
+      <h2 class="section-title" data-i18n="gallery_heading">Luna's everyday moments.</h2>
+      <div class="gallery">
+        <figure><img src="photos/gallery-1.svg" alt=""></figure>
+        <figure><img src="photos/gallery-2.svg" alt=""></figure>
+        <figure><img src="photos/gallery-3.svg" alt=""></figure>
+        <figure><img src="photos/gallery-4.svg" alt=""></figure>
+        <figure><img src="photos/gallery-5.svg" alt=""></figure>
+        <figure><img src="photos/gallery-6.svg" alt=""></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAILS -->
+  <section id="details">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="details_eyebrow">Character &amp; health</p>
+      <h2 class="section-title" data-i18n="details_heading">What to expect day to day.</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="icon">🛋️</div>
+          <h3 data-i18n="trait_1_title">House-trained</h3>
+          <p data-i18n="trait_1_body">No accidents in foster care. She asks to go out and waits at the door.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🤝</div>
+          <h3 data-i18n="trait_2_title">Gentle with everything</h3>
+          <p data-i18n="trait_2_body">No resource guarding, no rough play. Calm around kids and other pets.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦮</div>
+          <h3 data-i18n="trait_3_title">Leash walks well</h3>
+          <p data-i18n="trait_3_body">Doesn't pull. Happy with two walks a day, plus yard time if available.</p>
+        </div>
+        <div class="card">
+          <div class="icon">😌</div>
+          <h3 data-i18n="trait_4_title">Independent, not anxious</h3>
+          <p data-i18n="trait_4_body">Can be left alone for a work day. Naps, doesn't destroy things.</p>
+        </div>
+      </div>
+
+      <div class="checklist">
+        <h3 data-i18n="health_heading">Vet-checked. 2 of 4 done.</h3>
+        <ul>
+          <li class="done" data-i18n="health_1">Health check &amp; deworming &mdash; done</li>
+          <li class="done" data-i18n="health_2">Core vaccines &mdash; done</li>
+          <li data-i18n="health_3">Spay surgery &mdash; scheduled</li>
+          <li data-i18n="health_4">Microchip &amp; passport &mdash; pending</li>
+        </ul>
+      </div>
+
+      <div class="looking">
+        <p class="eyebrow" data-i18n="looking_eyebrow">Who we're looking for</p>
+        <h2 class="section-title" data-i18n="looking_heading">A patient family, first and foremost.</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="icon">⏳</div>
+            <h3 data-i18n="looking_1_title">Patience for the first weeks</h3>
+            <p data-i18n="looking_1_body">She needs time to settle. No returns policy &mdash; just a bit of grace.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🌳</div>
+            <h3 data-i18n="looking_2_title">A fenced yard or regular walks</h3>
+            <p data-i18n="looking_2_body">She doesn't need a farm, just consistent time outside.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🏠</div>
+            <h3 data-i18n="looking_3_title">No free-roaming or chaining</h3>
+            <p data-i18n="looking_3_body">Indoor family life only &mdash; that's the whole point of this move.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="contact_eyebrow">Contact</p>
+      <h2 class="section-title" data-i18n="contact_heading">Come meet Luna.</h2>
+      <div class="contact-grid">
+        <div>
+          <p data-i18n="contact_body">Belgrade &mdash; short visit, no pressure to decide on the spot.</p>
+          <div class="contact-methods">
+            <a class="contact-method" href="https://wa.me/381600000000" target="_blank" rel="noopener">
+              <span class="glyph">💬</span>
+              <span>
+                <strong data-i18n="contact_whatsapp_label">WhatsApp</strong>
+                <span data-i18n="contact_whatsapp_body">Scan to message us directly.</span>
+              </span>
+            </a>
+            <a class="contact-method" href="https://t.me/your_username" target="_blank" rel="noopener">
+              <span class="glyph">✈️</span>
+              <span>
+                <strong data-i18n="contact_telegram_label">Telegram</strong>
+                <span>@your_username</span>
+              </span>
+            </a>
+            <a class="contact-method" href="https://maps.google.com/?q=Belgrade" target="_blank" rel="noopener">
+              <span class="glyph">📍</span>
+              <span>
+                <strong data-i18n="contact_address_label">Location</strong>
+                <span>Belgrade</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-photo">
+          <img src="photos/contact.svg" alt="Luna looking forward">
+        </div>
+      </div>
+
+      <div class="share-block">
+        <h3 data-i18n="share_heading">Share Luna's page</h3>
+        <p data-i18n="share_body">Every repost puts her in front of someone who might be looking.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span data-i18n="footer_text">Made with care for Luna &middot; 2026</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 800">
+  <rect width="450" height="800" fill="#E1D6BE"/>
+  <g fill="#B5A583" opacity="0.55">
+    <circle cx="187.0" cy="345.0" r="16"/>
+    <circle cx="212.0" cy="328.0" r="18"/>
+    <circle cx="238.0" cy="328.0" r="18"/>
+    <circle cx="263.0" cy="345.0" r="16"/>
+    <ellipse cx="225.0" cy="390.0" rx="42" ry="34"/>
+  </g>
+  <text x="225.0" y="470.0" font-family="sans-serif" font-size="22" fill="#7A6E56" text-anchor="middle">Replace this photo</text>
+  <text x="225.0" y="498.0" font-family="monospace" font-size="15" fill="#9A8E70" text-anchor="middle">gallery-4.jpg  (450:800)</text>
+</svg>
