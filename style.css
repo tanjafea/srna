@@ -139,6 +139,7 @@ h1.hero-title {
   font-weight: 600;
   line-height: 1.02;
   margin: 0 0 18px;
+  text-wrap: balance;
 }
 .hero-subtitle {
   font-size: 1.15rem;
@@ -218,7 +219,8 @@ h2.section-title {
   font-size: clamp(1.9rem, 3.5vw, 2.6rem);
   font-weight: 600;
   margin: 0 0 32px;
-  max-width: 22ch;
+  max-width: 34ch;
+  text-wrap: balance;
 }
 
 .story p {
